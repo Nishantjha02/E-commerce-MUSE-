@@ -78,3 +78,11 @@ Thumbs.db
 # Cache
 .cache/
 .parcel-cache/
+
+# Documentation files to exclude
+setup.md
+SETUP.md
+quick-start.md
+QUICK-START.md
+quickstart.md
+QUICKSTART.md
