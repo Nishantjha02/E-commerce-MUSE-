@@ -1,4 +1,4 @@
-import React, { useState ,useRef} from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import './Styles/Header.css';
 import search from '../Assets/images/search.svg';

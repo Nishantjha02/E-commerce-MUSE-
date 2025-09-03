@@ -32,17 +32,17 @@ function NewFooter() {
         </div>
         <div className="footer-section mid">
           <h3>Useful links</h3>
-          <a href="./About">About Muse</a>
-          <a href="./Contacts/">Help and support</a>
-          <a href="./Contacts">Contact us</a>
-          <a href="./About">Privacy policy</a>
+          <a href="/muse/about">About Muse</a>
+          <a href="/muse/contacts">Help and support</a>
+          <a href="/muse/contacts">Contact us</a>
+          <a href="/muse/about">Privacy policy</a>
         </div>
         <div className="footer-section">
         <h3>Products</h3>
-          <a href="/">Audio</a>
-          <a href="/">Laptops</a>
-          <a href="/">Tablets</a>
-          <a href="/">Others</a>
+          <a href="/muse/products">Audio</a>
+          <a href="/muse/products">Laptops</a>
+          <a href="/muse/products">Tablets</a>
+          <a href="/muse/products">Others</a>
         </div>
       </div>
     </div>

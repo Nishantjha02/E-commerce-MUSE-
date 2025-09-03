@@ -3,9 +3,7 @@ import "./Styles/ProductDetails.css";
 import { useParams, useNavigate } from "react-router-dom"; 
 import { productsAPI, cartAPI, authAPI } from '../api.js';
 import ButtonArrow from "../Assets/images/arrow-button.png";
-import FullStar from "../Assets/images/fill-star.png";
-import HalfStar from "../Assets/images/half-star.png";
-import EmptyStar from "../Assets/images/empty-star.png";
+
 import InStock from "../Assets/images/in-stock.png";
 import OutOfStock from "../Assets/images/out-of-stock.png";
 

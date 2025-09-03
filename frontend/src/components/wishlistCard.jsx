@@ -14,7 +14,7 @@ function WishlistCard({product}) {
           .catch((error) => {
             console.log("error: " + error);
           });
-      }, []);
+      }, [product.id]);
       console.log(productImage);
   return (
     <div className='wishlist-Card'>
