@@ -10,7 +10,7 @@ function OrdersSection() {
   const cancelOrder = async (orderId) => {
     if (window.confirm('Are you sure you want to cancel this order?')) {
       try {
-        const response = await fetch(`http://localhost:5000/api/orders/${orderId}/cancel`, {
+        const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000/api'}/orders/${orderId}/cancel`, {
           method: 'PUT',
           headers: {
             'Authorization': `Bearer ${localStorage.getItem('authToken')}`

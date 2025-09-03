@@ -26,7 +26,7 @@ function AdminDashboard() {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/products?limit=100');
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000/api'}/products?limit=100`);
       const data = await response.json();
       setProducts(data.products || []);
     } catch (error) {
@@ -37,7 +37,7 @@ function AdminDashboard() {
   const handleAddProduct = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/admin/products', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000/api'}/admin/products`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ function AdminDashboard() {
   const handleDeleteProduct = async (productId) => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       try {
-        const response = await fetch(`http://localhost:5000/api/admin/products/${productId}`, {
+        const response = await fetch(`${process.env.REACT_APP_API_URL || 'http://localhost:5000/api'}/admin/products/${productId}`, {
           method: 'DELETE'
         });
 
