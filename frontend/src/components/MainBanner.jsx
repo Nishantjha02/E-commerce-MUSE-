@@ -20,7 +20,7 @@ function MainBanner() {
           <p>
           Introducing the Eclipse ProMax 360: these headphones blend luxury with performance. Featuring plush memory foam cushions and adaptive noise-canceling technology, they deliver crisp, immersive sound with deep bass. The sleek, lightweight design and intuitive touch controls ensure comfort and ease, making them perfect for any audio experience.
           </p>
-          <button onClick={() => window.location.href = '/muse/products'}>Learn More</button>
+          <button onClick={() => window.location.href = '/products'}>Learn More</button>
         </div>
         <div className="s-b-c">
           <button>
