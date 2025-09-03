@@ -28,11 +28,6 @@ function App() {
 
   return (
     <>
-      <div className="mobile-message">
-        <h1>This website is best viewed on a Laptop or Desktop</h1>
-        <p>Please switch to a larger screen for the best experience.</p>
-      </div>
-
       <div className="app-content">
         <Header searchInputRef={searchInputRef} />
         <Routes>
