@@ -1,4 +1,6 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://e-commerce-muse.onrender.com/api';
+console.log('API Base URL:', API_BASE_URL);
+console.log('Environment:', process.env.NODE_ENV);
 
 // Get auth token from localStorage
 const getAuthToken = () => {
