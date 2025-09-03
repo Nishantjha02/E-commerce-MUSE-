@@ -1,0 +1,55 @@
+.Carousel-Container
+{
+    width: 100vw;
+    display : flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.Carousel-Container> img
+{
+    width: 100vw;
+    height : 70vh;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(5px);
+}
+.Carousel
+{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap : 2vmax;
+    position: absolute;
+    z-index: 2;
+    scroll-behavior: smooth;
+}
+.prebtnCarousel, .nextbtnCarousel
+{
+    padding : 1vmax;
+    position : absolute;
+    z-index: 9;
+    height : 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}  
+.prebtnCarousel > img, .nextbtnCarousel > img
+{
+    height: 2vmax;
+    opacity: 0.5;
+} 
+.prebtnCarousel
+{
+    left : 1%;
+}
+
+.nextbtnCarousel
+{
+    right : 1%;
+}
+.nextbtnCarousel > img
+{
+    rotate: 180deg;
+}

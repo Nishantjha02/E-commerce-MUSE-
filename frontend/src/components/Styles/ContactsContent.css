@@ -1,0 +1,59 @@
+.ContactsContent
+{
+    display: flex;
+    flex-direction: column;
+    padding: 4% 4% 9% 7%;
+}
+.ContactsContent > h1
+{
+    font-family: R;
+    margin: 0;
+}
+.ContactsContent > p
+{
+    color : rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+    font-size: 1rem;
+}
+
+.ContactsContent > ul
+{
+    padding-left: 1%;
+    list-style:none;
+    
+}
+.ContactsContent > ul > li >  a
+{
+    color : white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.ContactsContent > ul > li >  a:hover
+{
+    text-decoration: underline;
+}
+.ContactsContent > ul > li >  img
+{
+    height : 1vmax;
+    rotate: -90deg;
+    margin-right: 0.5vmax;
+}
+.ContactsContent > ul > li >  p
+{
+    color : rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+    font-size: 1rem;
+}
+.ContactsContent > h2
+{
+    margin-top: 6vmax;
+    font-family: R;
+    font-size: 1.5rem;
+}
+.Disclaimer > li
+{
+    list-style:disc;
+    font-size: 1rem;
+    color : rgba(255, 255, 255, 0.5);
+    font-family: C;
+}

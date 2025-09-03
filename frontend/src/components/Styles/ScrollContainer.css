@@ -1,0 +1,24 @@
+.scroll-container {
+    width: 10px;
+    overflow-y: visible; /* Enable scrolling */
+    background-color: red;
+    position: absolute;
+    z-index: 9999;
+    right : 0;
+}
+
+/* Content within the scroll container */
+.scroll-content {
+    padding: 16px;
+    /* Add any content-specific styling */
+}
+
+/* Custom glassy scrollbar thumb */
+.scroll-thumb {
+    background: yellow; /* Semi-transparent glassy effect */
+}
+
+/* Hover effect for thumb */
+.scroll-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,80 @@
+.Account-section-container
+{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.Account-Header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.LogOutButton
+{
+    background-color: white;
+    border: none;
+    font-size: 1.1vmax;
+    height: 2.5vmax;
+    width: 6vmax;
+}
+.account-options
+{
+    background-color: transparent;
+    border: 1px solid rgb(111, 111, 111);
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+.account-options > div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding : 3% 0;
+}
+.account-options > div > h2
+{
+    font-size: 1.1vmax;
+}
+.account-options > div > button
+{
+    background-color: transparent;
+    color : white;
+    border : 1px solid white;
+    padding: 1%;
+    font-size : 1vmax;
+}
+.account-options > div > button:hover
+{
+    background-color: white;
+    color : black;
+    transition: 0.5s;
+}
+.Password-button
+{
+    background-color: transparent;
+    color : white;
+    border: 1px solid white;
+    padding : 0.5vmax 1vmax;
+    width : 10vw;
+}
+.Password-button:hover
+{
+    background-color: white;
+    color : black;
+    transition: 0.5s;
+}
+.account-options > div > h2
+{
+    margin-right: 23vmax;
+}
+.account-options > div > img
+{
+    margin-right: 25.7vmax;
+    height: 4vmax;
+    border-radius: 50%;
+}

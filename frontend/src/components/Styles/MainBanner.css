@@ -1,0 +1,113 @@
+.main-banner-container
+{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+/* there's a overflow problem here in video */
+.main-banner-video
+{
+    width : 100vw;
+    position: absolute;
+    z-index: -1;
+}
+.banner-text-container
+{
+    height: 50vh;
+    background-color: rgba(114, 114, 114, 0.4);
+    margin-left:2.7%;
+    margin-bottom: 7%;
+    width: 43vw;
+    color :white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 2vh;
+    border: 1px solid rgba(255, 255, 255, 0.202);
+    backdrop-filter: blur(20px);
+}
+.banner-text-container:hover
+{
+    border: 1px solid rgba(255, 255, 255, 0.502); 
+    transition: 0.5s;
+}
+.banner-text-container > h1
+{
+    font-family: R;
+    font-weight:500;
+    width: 80%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.623);
+}
+.banner-text-container > h2
+{
+    align-self: flex-start;
+    padding-left: 10%;
+    font-weight: 100;
+}
+.banner-text-container > p
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+.banner-text-container > button
+{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.598);
+    color : white;
+    width : 80%;
+    height : 6vh;  
+
+}
+.banner-text-container > button:hover
+{
+    background-color: rgba(255, 255, 255);
+    color : rgb(45, 45, 45);
+    transition: 1s;
+}
+.s-b-c
+{
+    margin-bottom: 8%;
+    margin-right: 6%;
+    height : 5vw;
+    width: 5vw;
+    border: 1px solid rgba(255, 255, 255, 0.313); 
+    rotate: 45deg;
+    background-color: rgba(114, 114, 114, 0.4);
+}
+.s-b-c:hover
+{
+    border: 1px solid rgba(255, 255, 255); 
+}
+.s-b-c > button
+{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.s-b-c > button > img
+{
+    height : 80%;
+    width : 80%;
+    rotate: -45deg;
+    opacity : 1;
+}
+.s-b-c > button > img:hover
+{
+    opacity: 1;
+}
+/* .main-banner-container > video::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 20%, rgba(0, 0, 0, 0) 50%);
+    z-index: 1;
+} */

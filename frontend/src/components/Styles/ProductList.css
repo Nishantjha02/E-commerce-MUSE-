@@ -1,0 +1,64 @@
+.ProductListMain
+{
+    min-height : 90vh;
+    width: 68vw;
+    display: flex;
+    flex-direction: column;
+    gap : 3vmax;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: visible;
+    margin-top: 2vmax;
+    padding-bottom: 10vmax;
+}
+
+.category-section {
+    width: 100%;
+}
+
+.category-title {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.5vmax;
+    padding-left: 0.5vmax;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 0.8vmax;
+}
+
+.category-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vmax;
+}
+
+.ProductListMain.filtered {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: unset;
+}
+
+.ProductCardContainer
+{
+    width : 10vw;
+    padding-top: 6%;
+}
+
+.ProductCardContainer > div > img
+{
+    width : 10vw;
+}
+
+.ProductListMain::-webkit-scrollbar{
+    display : none;
+}
+.ProductListMain > p
+{
+    font-size: 2.5rem;
+    width: 50vw;
+}
+.ProductCardContainer:hover
+{
+    opacity : 0.9;
+    scale : 1.006;
+}
+

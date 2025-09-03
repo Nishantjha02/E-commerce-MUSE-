@@ -1,0 +1,56 @@
+.FilterBarMain
+{
+    margin-top: 3vmax;
+    margin-left: 3vmax;
+}
+.FilterBar
+{
+    width : 20vw;
+    height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+.FilterBar::-webkit-scrollbar{
+    display: none;
+}
+.Categoryheading
+{
+    padding : 1vmax;
+    text-align: center;
+    font-family: C;
+    font-weight: light;
+    font-size: 1.5vmax;
+    background-color: rgba(114, 114, 114, 0.4);
+    color:rgba(255, 255, 255, 0.73);
+    border: 1px solid rgba(255, 255, 255, 0.523);
+}
+.FilterBar > button
+{
+    background-color: transparent;
+    border :none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    color : white;
+    padding: 0.3vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.FilterBar > button:hover
+{
+    background-color: rgba(114, 114, 114, 0.4);
+}
+.FilterBar > button > h3
+{
+    color:rgba(255, 255, 255, 0.5);
+    margin-left: 1vmax;
+    font-size: 1.3vmax;
+    font-family: C;
+}
+.FilterBar > button > img
+{
+    height : 2vmax;
+    margin-left: 1.5vmax;
+}

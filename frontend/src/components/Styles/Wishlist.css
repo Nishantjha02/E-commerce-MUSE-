@@ -1,0 +1,23 @@
+.wishlist-card-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height : 70vh;
+    overflow-y: auto;
+}
+.wishlist-card-container::-webkit-scrollbar
+{
+    display : none;
+}
+.wishlist-card-header
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.Wishlist-Item
+{
+    grid-column: span 2;
+    justify-content: flex-start;
+    padding-left: 2.5vw;
+}

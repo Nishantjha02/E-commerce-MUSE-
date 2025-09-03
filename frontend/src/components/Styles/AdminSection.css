@@ -1,0 +1,21 @@
+.Admin-option-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Admin-option-container > button
+{
+    padding: 4%;
+    font-size: 2vmax;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color : white;
+    font-family: C;
+}
+.Admin-option-container > button:hover
+{
+    background-color: grey;
+    transition: 0.5s;
+}

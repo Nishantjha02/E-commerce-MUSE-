@@ -1,0 +1,229 @@
+.About-container
+{
+    width : 100vw;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.About-header
+{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+.About-menu-container{
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+}
+.About-menu-container > h2
+{
+    color : white;
+    font-size: 1.5rem;
+    font-family: C;
+    margin-left: 4vmax;
+}
+
+.About-menu-arrow
+{
+    height : 1.3vmax;
+    font-weight: 100;
+    opacity: 0.5;
+    margin-top: 1.3vmin;
+    transition: rotate 1s;
+}
+.About-menu-arrow-active
+{
+    rotate:180deg;
+}
+.About-menu-arrow:hover
+{
+    opacity: 1;
+}
+.About-home-button 
+{
+    justify-self: flex-end;
+    background-color: transparent;
+    border : 1px solid rgba(255, 255, 255, 0.5);
+    margin-right: 4vmax;
+    font-size: 1.3rem;
+    color : white;
+    font-family: C;
+}
+.About-home-button:hover
+{
+    border : 1px solid white;
+}
+.AboutDropDown
+{
+    background-color: black;
+    width: 100vw;
+    position : absolute;
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutDropDown >div
+{
+    display: flex;
+    justify-content: flex-start;
+    gap : 2vmax;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2vmax 4vmax;
+}
+.AboutDropDown > div > a
+{
+    color : rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    width : 30%;
+    font-weight: 100;
+    font-family: C;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+}
+.AboutDropDown > div > a:hover
+{
+    color : white;
+    scale : 1.05;
+    transform: translateY(-10px);
+    transform: translateX(10px);
+    transition: 0.3s;
+}
+.AboutDropDown > div > a:not(:hover)
+{
+    scale : 1;
+    transform: translateY(10px);
+    transform: translateX(-10px);
+    transition: 0.3s;
+}
+.About-banner > img
+{
+    height : 50vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+}
+.About-message
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 2vmax;
+    justify-content: space-evenly;
+}
+.About-message > h2
+{
+    font-family: R;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.About-message > h1
+{
+    font-family: C;
+    font-weight: lighter;
+    font-size: 3rem;
+    text-align: center;
+    width: 65%;
+}
+.About-button
+{
+    background-color: rgba(114, 114, 114, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color :rgba(255, 255, 255, 0.5);
+    width : 20vmax;
+    font-size : 1.5rem;
+    padding: 1% 0;
+    font-family: C;
+    cursor: pointer;
+}
+.About-button:hover
+{
+    border: 1px solid white;
+    color :white;
+}
+.Initiatives
+{
+    width : 90vw;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 0.5vmax;
+    margin-top: 10vmax;
+}
+.Initiatives > h2
+{
+    font-size: 2.5rem;
+    font-family: R;
+    font-weight: lighter;
+}
+.Initiatives > a > div
+{
+    display: flex;
+    justify-content: center;
+}
+.Initiatives > a > div:hover
+{
+    opacity: 0.7;
+}
+.Initiatives > a > div > img
+{
+    width : 50%;
+}
+.Initiatives > a
+{
+    color :rgba(255, 255, 255, 0.5);
+    align-self: flex-end;
+    text-decoration: none;
+}
+.Initiatives > a:hover
+{
+    color: white;
+}
+.other
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vmax;
+    margin-bottom: 5vmax;
+    gap : 3vmax;
+    font-family: C;
+}
+.other > div
+{
+    display: flex;
+    gap : 2vmax;
+}
+.other-card
+{
+    display: flex;
+    flex-direction: column;
+    gap : 1vmax;
+}
+
+.other-card > a > img
+{
+    width : 25vw;
+    height: 25vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.other-card > a > img:hover
+{
+    opacity : 0.7;
+}
+.prefooter
+{
+    position: static;
+    z-index: 0;
+}

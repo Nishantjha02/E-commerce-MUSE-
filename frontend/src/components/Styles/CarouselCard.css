@@ -1,0 +1,15 @@
+.CarouselCard > img
+{
+    border-radius: 5px;
+    height : 53vh;
+    width: 45vw;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(60%);
+}
+
+.CarouselCard > img:hover
+{
+    filter: grayscale(0%);
+    transition : 0.2s ease-in-out;
+}

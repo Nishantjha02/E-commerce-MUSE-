@@ -1,0 +1,39 @@
+.order-card-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height : 70vh;
+    overflow-y: visible;
+    padding-bottom: 10vh;
+}
+.order-card-container::-webkit-scrollbar
+{
+    display : none;
+}
+.order-card-header
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.order-Item
+{
+    grid-column: span 2;
+    justify-content: flex-start;
+    padding-left: 2.5vw;
+}
+
+.status-pending {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.status-cancelled {
+    color: #ff4444;
+    font-weight: bold;
+}
+
+.status-delivered {
+    color: #4CAF50;
+    font-weight: bold;
+}

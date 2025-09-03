@@ -1,0 +1,27 @@
+.CarouselContainer
+{
+    height : 90vh;
+    width : 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.CarouselContainer::-webkit-scrollbar
+{
+    display: none;
+}
+
+.carouselbtn
+{
+    z-index: 4;
+    height : 80vh;
+    width: 20vw;
+}
+.carouselbtn > img
+{
+    height : 4vmax;
+}

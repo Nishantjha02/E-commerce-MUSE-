@@ -1,0 +1,91 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: C;
+}
+.app-content {
+    display: block;
+  }
+  
+  .mobile-message {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .app-content {
+      display: none;
+    }
+    
+    .mobile-message {
+      display: block;
+      text-align: center;
+      padding: 20px;
+      background-color: #f7f7f7;
+      color: #333;
+      font-size: 18px;
+    }
+    .mobile-message > p{
+        color: #333;
+    }
+  }
+  .mobile-message {
+    display: none;
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .app-content {
+      display: none;
+    }
+  
+    .mobile-message {
+      display: block;
+    }
+  }
+  
+@font-face {
+    font-family: V;
+    src: url(./Assets/fonts/Vogue.ttf);
+}
+@font-face {
+    font-family: G;
+    src: url(./Assets/fonts/glossy.otf);
+}
+@font-face {
+    font-family: R;
+    src: url(./Assets/fonts/Ragara.otf);
+}
+
+@font-face {
+    font-family: C;
+    src: url(./Assets/fonts/CaviarDreams.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 15px; 
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.491);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.315);
+} 

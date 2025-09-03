@@ -1,0 +1,61 @@
+.UserMenu
+{
+    width: 11vw;
+    position: absolute;
+    z-index: 11;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(255, 255, 255); 
+    right: 2.8vw;
+    top: 8.5vh;
+    color : white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-blur
+{
+    width: 11vw;
+    height: 32vh;
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    filter: blur(10px);
+    opacity: 0.8;
+    z-index: 1;
+    right: 2.8vw;
+    top: 8.5vh;
+}
+
+.UserMenu > button
+{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2vmax;
+    text-align: left;
+    padding: 0;
+}
+.UserMenu > button:hover
+{
+    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.27);
+    transition: 0.5s;
+}
+.UserMenu > button:not(:hover)
+{
+    opacity: 1;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.UserMenuLink
+{
+    text-decoration: none;
+    color: white;
+    font-family: C;
+    font-weight: 900;
+    display: block;
+    padding: 2vw;
+}
+.UserMenuLink > img
+{
+    height: 1vmax;
+    margin-right: 1vmax;
+}

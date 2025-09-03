@@ -1,0 +1,100 @@
+.Login-bg-video
+{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+.Login-container
+{
+    width: 40vw;
+    height: 90vh;
+    overflow: hidden;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+.login-bg-blur
+{
+    height: 90vh;
+    width: 40vw;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+}
+.Logging-in
+{
+    margin-top: 8vh;
+}
+.Login-card > form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.Login-card > form > h1
+{
+    width: 100%;
+    text-align: center;
+    font-family: C;
+}
+.Login-card > form > p
+{
+    padding-left: 4vw;
+    font-family: C;
+    font-size: 1.5vmax;
+}
+
+.Login-input
+{
+    margin-left: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+.Login-input > img
+{
+    height: 1.2vmax;
+    padding : 0.5vmax 2vmax;
+    border-right: 1px solid white;
+}
+.Login-card > form > div > input
+{
+    width: 23vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.3vmax;
+    color: white;
+    padding: 1vmax 2vmax;
+}
+.Login-card > form > button
+{
+    margin: 2vmax auto;
+    padding : 1vmax 10vmax;
+}
+.Other-options
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding : 1vmax 0;
+}
+.Other-options > a
+{
+    text-decoration: none;
+    color: white;
+    font-family: C;
+    opacity: 0.6;
+}
+.Other-options > a:hover
+{
+    opacity: 1;
+    transition: 0.4s;
+}
+

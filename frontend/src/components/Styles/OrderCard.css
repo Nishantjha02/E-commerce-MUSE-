@@ -1,0 +1,49 @@
+.order-Card
+{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.44);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+}
+.order-Card > h1
+{
+    font-size: 1.1vmax;
+    align-self: center;
+    margin-top: 1vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    text-align: left;
+}
+.order-image
+{
+    height: 15vh;
+    width: 6vw;
+    object-fit: cover;
+    margin-left: 2.5vmax;
+    align-self: center;
+}
+.order-Card > p
+{
+    font-size: 1vmax;
+}
+
+.order-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancel-order-btn {
+    background: transparent;
+    color: #ff4444;
+    border: 2px solid #ff4444;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cancel-order-btn:hover {
+    transform: scale(1.05);
+}

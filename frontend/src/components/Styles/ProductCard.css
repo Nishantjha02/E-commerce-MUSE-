@@ -1,0 +1,44 @@
+.Product-card
+{
+    padding-top: 2%;
+    width : 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2vw;
+    overflow: visible;
+}
+
+.Product-card-title
+{
+    color : white;
+    font-family: R;
+    align-self: flex-start;
+}
+
+.prebtn, .nextbtn
+{
+    padding : 1vmax;
+    position : absolute;
+    height : 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}  
+.prebtn > img, .nextbtn > img
+{
+    height: 2vmax;
+    opacity: 0.5;
+} 
+.prebtn
+{
+    left : 1%;
+}
+
+.nextbtn
+{
+    right : 1%;
+}
+.nextbtn > img
+{
+    rotate: 180deg;
+}

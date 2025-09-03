@@ -1,0 +1,70 @@
+.CarouselSlide
+{
+    height : 90vh;
+    width: 100vw;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+}
+.CarouselBg
+{
+    height: 90vh;
+    width : 100vw;
+    filter: blur(10px) brightness(60%);
+    object-fit: cover;
+    position: relative;
+}
+.CarouselImg
+{
+    position: relative;
+    left: 19vw;
+    bottom: 85vh;
+    z-index: 3;
+    height: 60vh;
+    width: 62vw;
+    object-fit: cover;
+    box-shadow: 0px 0px 30px #000000;
+}
+.CarouselImg:hover
+{
+    scale:1.05;
+    transition: 0.5s;
+}
+.CarouselImg:not(:hover)
+{
+    scale:1;
+    transition: 0.5s;
+}
+
+.HeroProductCaption
+{
+    position: relative;
+    z-index: 4;
+    bottom: 82vh;
+    left: 19vw;
+    border: 1px solid white;
+    background-color: rgba(114, 114, 114, 0.4);
+    color: white;
+    width: 62vw;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+.HeroProductCaption > h2
+{
+    font-size: large;
+}
+.HeroProductCaption > p
+{
+    padding-left: 0;
+    font-size: medium;
+}
+.HeroProductCaption:hover
+{
+    scale : 1.05;
+    transition: 0.5s;
+}
+.HeroProductCaption:not(:hover)
+{
+    scale : 1;
+    transition : 0.5s;
+}

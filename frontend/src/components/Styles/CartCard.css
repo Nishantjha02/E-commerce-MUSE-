@@ -1,0 +1,83 @@
+.Cart-Card
+{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.44);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1.5fr;
+}
+.Cart-Card > h1
+{
+    font-size: 1.1vmax;
+    align-self: center;
+    width: 12vw;
+    padding-left: 2vmax;
+    padding-right: 1vmax;
+}
+.Cart-image
+{
+    height: 15vh;
+    width: 6vw;
+    object-fit: cover;
+    margin-left: 2.5vmax;
+    align-self: center;
+}
+.Cart-Card > p
+{
+    font-size: 1vmax;
+    align-self: center;
+}
+.Cart-Card > div
+{
+    display: flex;
+    gap : 0.5vmax;
+}
+.Cart-Card > div > button
+{
+    height : 1vmax;
+    margin-top: 0.9vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.Quantity-container
+{
+    align-self: center;
+}
+
+.cart-item-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-self: center;
+    justify-content: center;
+}
+
+.buy-now-btn {
+    background: #111;
+    color: white;
+    border: 2px solid #fff;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buy-now-btn:hover {
+    transform: scale(1.05);
+}
+
+.remove-btn {
+    background: transparent;
+    color: #ff4444;
+    border: 2px solid #ff4444;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.remove-btn:hover {
+    transform: scale(1.05);
+}

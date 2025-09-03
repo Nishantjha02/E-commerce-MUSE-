@@ -1,0 +1,151 @@
+.product-content
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding : 5%;
+    box-sizing: border-box;
+}
+.product-images
+{
+    width: 30vw;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.product-images >  img
+{
+    height: 70vh;
+    width: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+.Loading-container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: C;
+}
+.product-btn-prev, .product-btn-next
+{
+    height: 70vh;
+    width: 13vw;
+    background-color: transparent;
+    border: none;
+    position : absolute;
+    opacity: 0.6;
+}
+.product-btn-next
+{
+    left: 30vw;
+}
+.product-btn-next > img
+{
+    rotate: 180deg;
+    height: 1.5vmax;
+}
+.product-btn-prev > img
+{
+    height: 1.5vmax;
+}
+.product-btn-prev
+{
+    right: 89vw;
+}
+.product-details
+{
+    width: 55vw;
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.product-details > h1
+{
+    font-size: 3vmax;
+    font-family: C;
+    font-variant:small-caps;
+}
+.product-details > h3
+{
+    font-family: C;
+    padding-right: 5%;
+    font-size: 1vmax;
+}
+.product-price
+{
+    font-family: C;
+    font-size: 2vmax;
+}
+.price-and-buttons
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2vmax;
+}
+.back-button
+{
+    width: min-content;
+    height: 5vh;
+    margin-top: 6%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    z-index: 5;
+}
+.back-button:hover
+{
+    scale : 1.1;
+    background-color: white;
+    color : black;
+    transition: 0.5s;
+    border: none;
+}
+
+.price-and-buttons > button
+{
+    padding: 0vmax 1vmax;
+    height: 50%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1vmax;
+}
+.price-and-buttons > button:hover
+{
+    scale : 1.1;
+    background-color: transparent;
+    color : white;
+    transition: 0.5s;
+    border: 1px solid white;
+}
+.price-and-buttons > button:not(:hover)
+{
+    scale: 1;
+    background-color: white;
+    color: black;
+    transition: 0.5;
+    border: none;
+}
+.stock-info-container
+{
+    display: flex;
+    align-items: center;
+    gap : 0.5vmax;
+}
+.stock-info-container> p
+{
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.5vmax;
+}
+.Stock-icon
+{
+    height: 2vmax;
+}

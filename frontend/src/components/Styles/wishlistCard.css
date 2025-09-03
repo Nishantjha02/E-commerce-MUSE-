@@ -1,0 +1,28 @@
+.wishlist-Card
+{
+    height: 20vh;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.44);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.wishlist-Card > h1
+{
+    font-size: 1.1vmax;
+    align-self: flex-start;
+    margin-top: 1vmax;
+    position: relative;
+    left: -3vw;
+}
+.wishlist-image
+{
+    height: 15vh;
+    width: 6vw;
+    object-fit: cover;
+    margin-left: 2.5vmax;
+    align-self: center;
+}
+.wishlist-Card > p
+{
+    font-size: 1vmax;
+}

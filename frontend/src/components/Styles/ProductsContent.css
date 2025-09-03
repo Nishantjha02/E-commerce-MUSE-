@@ -1,0 +1,22 @@
+.ProductsContentMain
+{
+    width : 100vw;
+    display : flex;
+    justify-content: flex-start;
+    gap : 5vmax;
+}
+
+.carousel-container
+{
+    margin-bottom: 3vmax;
+}
+.ProductMenuContainer{
+    position: relative;
+    z-index: 10;
+}
+
+.Prouctlistcontainer
+{
+    margin-bottom: 15vmax;
+    padding-bottom: 5vmax;
+}
