@@ -9,23 +9,23 @@ function ContactsContent() {
       <p>Your inquiry and feedback is always appreciated. To contact a Muse Group company nearest you, select a category below and then choose your country/area.</p>
       <ul>
         <li>
-          <img src={Arrow} alt="" /><a href="">Electronics, Phones / Tablets / SmartWear, Games</a>
+          <img src={Arrow} alt="" /><a href="/muse/products">Electronics, Phones / Tablets / SmartWear, Games</a>
           <p>TV, Video, Audio, Digital Still Camera, Gaming consoles, and others.</p>
         </li>
         <li>
-        <img src={Arrow} alt="" /><a href="">Music</a>
+        <img src={Arrow} alt="" /><a href="/muse/products">Music</a>
           <p>Muse Music</p>
         </li>
         <li>
-        <img src={Arrow} alt="" /><a href="">Movies</a>
+        <img src={Arrow} alt="" /><a href="/muse/products">Movies</a>
           <p>Muse Pictures</p>
         </li>
         <li>
-        <img src={Arrow} alt="" /><a href="">Financial Services</a>
+        <img src={Arrow} alt="" /><a href="/muse/contacts">Financial Services</a>
           <p>Life insurance, non-life insurance, banking, etc.</p>
         </li>
         <li>
-        <img src={Arrow} alt="" /><a href="">Others</a>
+        <img src={Arrow} alt="" /><a href="/muse/products">Others</a>
           <p>(This link takes you to the Electronics country / area select page of this site, where you can search by country/area.)</p>
         </li>
       </ul>

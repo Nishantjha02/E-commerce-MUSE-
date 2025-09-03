@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './Styles/CarouselCardNew.css'
 
 // let unsplash = 'https://api.unsplash.com/photos/random/?client_id=pnxXOL5Fe_G3mwgJ6SArvUFS-GeTP9WPiIgczJ6sT8I';
